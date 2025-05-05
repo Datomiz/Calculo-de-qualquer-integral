@@ -56,12 +56,12 @@ def integral_sem_integral(vx,vy):
 
 resultado = integral_sem_integral(vx, vy)
 
-for i in range(len(vy)):
+#for i in range(len(vy)):
 
-    vy[i] = float(vy[i])
-    vx[i] = float(vx[i])
+    #vy[i] = float(vy[i])
+    #vx[i] = float(vx[i])
 
-print(f"{vx = }")
-print(f"{vy = }")
+#print(f"{vx = }")
+#print(f"{vy = }")
 
 print(f"\nA integral de sua função é: {resultado}")
